@@ -1,0 +1,20 @@
+:root {
+  --jazz1: #2a7e90;
+  --jazz2: #165120;
+  --jazz3: #031138;
+  --jazz4: #013c40;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.content {
+  position: absolute;
+  top: calc(50%);
+  left: calc(50%);
+  transform: translate(-50%, -50%);
+}
